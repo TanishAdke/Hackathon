@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurant Menu</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to [Restaurant Name]</h1>
+        <p>Explore our delicious selection of dishes. Choose your favorites and add them to your cart!</p>
+    </header>
+
+    <div class="menu">
+        <section class="veg-menu">
+            <h2>Vegetarian Delights</h2>
+            <div class="dish" data-name="Veggie Burger" data-price="10">
+                <h3>Veggie Burger</h3>
+                <p>A delicious plant-based patty with fresh lettuce, tomato, and vegan sauce. Served with fries.</p>
+                <button class="add-to-cart">Add to Cart - $10</button>
+            </div>
+            <div class="dish" data-name="Vegetable Lasagna" data-price="14">
+                <h3>Vegetable Lasagna</h3>
+                <p>Layers of pasta, ricotta cheese, spinach, and zucchini, baked to perfection.</p>
+                <button class="add-to-cart">Add to Cart - $14</button>
+            </div>
+            <!-- Add more dishes as needed -->
+        </section>
+
+        <section class="non-veg-menu">
+            <h2>Non-Vegetarian Favorites</h2>
+            <div class="dish" data-name="Grilled Chicken Breast" data-price="16">
+                <h3>Grilled Chicken Breast</h3>
+                <p>Tender chicken breast grilled to perfection, served with mashed potatoes and seasonal vegetables.</p>
+                <button class="add-to-cart">Add to Cart - $16</button>
+            </div>
+            <div class="dish" data-name="Spicy Chicken Wings" data-price="10">
+                <h3>Spicy Chicken Wings</h3>
+                <p>Juicy wings tossed in a spicy buffalo sauce, served with ranch dressing.</p>
+                <button class="add-to-cart">Add to Cart - $10</button>
+            </div>
+            <!-- Add more dishes as needed -->
+        </section>
+    </div>
+
+    <div class="cart">
+        <h2>Your Cart</h2>
+        <ul id="cart-items">
+            <!-- Cart items will appear here -->
+        </ul>
+        <div class="total">
+            <strong>Total: $<span id="total-price">0</span></strong>
+        </div>
+        <button id="checkout-button" onclick="checkout()">Checkout</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
