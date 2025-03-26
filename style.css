@@ -9,7 +9,8 @@
 
 /* Home Page */
 body {
-    background: linear-gradient(#9f3200, #000000);
+    background: rgb(135,8,8);
+background: linear-gradient(180deg, rgba(135,8,8,1) 0%, rgba(0,0,0,1) 97%, rgba(0,0,0,1) 100%);
 }
 hr {
     border: 1px solid rgb(195, 157, 33);
@@ -25,6 +26,7 @@ hr {
     justify-content: center;
     position: fixed;
     width: 100%;
+    text-decoration: underline color(white);
 }
 
 .nav li {
@@ -56,6 +58,7 @@ hr {
     color: white;
     text-align: center;
     flex-direction: column;
+    border-radius: 30dvb;
 }
 
 .hero::before {
@@ -118,6 +121,7 @@ hr {
     color: white;
     border: none;
     cursor: pointer;
+    border-radius:30dvh;
 }
 
 .special button:hover {
@@ -223,4 +227,38 @@ table {
 .menu-item h2 {
     font-size: 1.5rem;
     margin-bottom: 20px;
+}
+
+.description{
+    display:block;
+    height:800px;
+    background-color:rgb(53, 52, 52);
+}
+.text-box{
+    display: flex;
+    text-align: center;
+    padding: 6rem 100px;
+    size-adjust:20rem;
+    flex-direction: column;
+    color: azure;
+}
+.container-contact{
+        display:block;
+        height:800px;
+        background-color:rgb(53, 52, 52);
+}
+.container-box{
+    display: flex;
+    flex-direction: column;
+    padding: 6rem 100px;
+    color: aliceblue;
+    border: solid 2px white;
+    -webkit-box-flex: inherit;
+    box-sizing: border-box;
+    -moz-box-sizing: padding-box;
+    padding: 5%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
 }
