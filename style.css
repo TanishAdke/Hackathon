@@ -192,28 +192,24 @@ hr {
 
 /* Menu Page */
 
-.menu {
+.menu, .customize {
     background-color: rgb(53, 52, 52);
     color: white;
     padding: 50px 0;
     text-align: center;
 }
 
-table {
-    width: 100%;
-}
-
-.menu h1 {
+.menu h1, .customize h1 {
     font-size: 2.5rem;
     margin-bottom: 20px;
 }
 
-.menu p {
+.menu p, .customize p {
     font-size: 1.2rem;
     margin-bottom: 20px;
 }
 
-.menu img {
+.menu img, .customize img {
     width: 200px;
     height: 200px;
     border-radius: 15px;
@@ -223,4 +219,58 @@ table {
 .menu-item h2 {
     font-size: 1.5rem;
     margin-bottom: 20px;
+}
+
+.menu table, .customize table {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+}
+
+.menu th, .customize th {
+    background-color: rgb(195, 157, 33);
+    color: white;
+    padding: 10px;
+}
+
+.menu td, .customize td {
+    padding: 10px;
+    border-bottom: 1px solid white;
+}
+
+.menu button, .customize button {
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    background-color: rgb(195, 157, 33);
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.menu button:hover, .customize button:hover {
+    background-color: rgb(53, 52, 52);
+}
+
+.submit {
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    background-color: rgb(195, 157, 33);
+    color: white;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+}
+
+.submit button {
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    background-color: rgb(195, 157, 33);
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.submit button:hover {
+    background-color: rgb(53, 52, 52);
 }
