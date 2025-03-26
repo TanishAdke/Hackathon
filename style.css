@@ -8,9 +8,13 @@
 }
 
 /* Home Page */
-
 body {
-
+    background: linear-gradient(#bc450d, #000000);
+}
+hr {
+    border: 1px solid rgb(195, 157, 33);
+    width: 80%;
+    margin: 20px auto;
 }
 
 .header {
@@ -91,7 +95,7 @@ body {
 }
 
 .special {
-    background-color: rgb(53, 52, 52);
+    /* background-color: rgb(53, 52, 52); */
     color: white;
     padding: 50px 0;
     text-align: center;
@@ -100,4 +104,72 @@ body {
 .special h1 {
     font-size: 2.5rem;
     margin-bottom: 20px;
+}
+
+.special p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+
+.special button {
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    background-color: rgb(195, 157, 33);
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.special button:hover {
+    background-color: rgb(53, 52, 52);
+}
+
+.special img {
+    width: 250px;
+    height: 250px;
+    border-radius: 15px;
+    margin: 20px;
+}
+
+.special-item h2 {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+}
+
+.testimonials {
+    background-color: rgb(53, 52, 52);
+    color: white;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.testimonials h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+
+.testimonials p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+
+.testimonials button {
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    background-color: rgb(195, 157, 33);
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.testimonials button:hover {
+    background-color: rgb(53, 52, 52);
+}
+
+.testimonials img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin: 20px;
 }
