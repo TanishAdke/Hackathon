@@ -263,6 +263,7 @@ hr {
     width: 80%;
     margin: 20px auto;
     border-collapse: collapse;
+    border-radius: 30rem;
 }
 
 .menu th, .customize th {
@@ -283,6 +284,7 @@ hr {
     color: white;
     border: none;
     cursor: pointer;
+    border-radius: 12px;
 }
 
 .menu button:hover, .customize button:hover {
@@ -313,3 +315,20 @@ hr {
     background-color: rgb(53, 52, 52);
 }
 
+.feedback{
+    display:block;
+    height:800px;
+    background-color:rgb(53, 52, 52);
+    display: flex;
+    flex-direction: column;
+    padding: 6rem 100px;
+    color: aliceblue;
+    border:12rem;
+    box-sizing:border-box;
+    padding: 20rem;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    border: 14px solid;
+    justify-items: auto;
+}
